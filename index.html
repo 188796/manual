@@ -1,17 +1,320 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
-<title>Vimo Q Manual</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vimo Q User Manual</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+
+    min-height: 100vh;
+
+    background:
+    linear-gradient(135deg,
+    #0f172a,
+    #1e3a8a,
+    #2563eb);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+
+/* 主卡片 */
+
+.container {
+
+    width:90%;
+    max-width:450px;
+
+    background:rgba(255,255,255,0.12);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    padding:35px 30px;
+
+    text-align:center;
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,0.3);
+
+}
+
+
+/* Logo */
+
+.logo {
+
+    width:90px;
+    height:90px;
+
+    margin:auto;
+    margin-bottom:20px;
+
+    border-radius:50%;
+
+    background:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#2563eb;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+
+/* 标题 */
+
+h1 {
+
+    font-size:28px;
+
+    margin-bottom:10px;
+
+}
+
+
+.subtitle {
+
+    opacity:0.85;
+
+    font-size:15px;
+
+    margin-bottom:25px;
+
+}
+
+
+/* 产品信息 */
+
+.info {
+
+    background:rgba(255,255,255,0.15);
+
+    padding:15px;
+
+    border-radius:15px;
+
+    margin-bottom:25px;
+
+}
+
+
+.info p {
+
+    margin:8px 0;
+
+    font-size:14px;
+
+}
+
+
+
+/* 下载按钮 */
+
+.download {
+
+
+    display:block;
+
+    padding:16px;
+
+    background:white;
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    border-radius:50px;
+
+    transition:0.3s;
+
+}
+
+
+.download:hover {
+
+
+    transform:translateY(-5px);
+
+    box-shadow:
+    0 10px 25px rgba(255,255,255,0.4);
+
+}
+
+
+
+/* 语言按钮 */
+
+.languages {
+
+
+    margin-top:25px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+}
+
+
+.languages a {
+
+
+    background:rgba(255,255,255,0.2);
+
+    padding:8px 14px;
+
+    border-radius:20px;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:13px;
+
+}
+
+
+.languages a:hover {
+
+    background:white;
+
+    color:#2563eb;
+
+}
+
+
+
+/* 页脚 */
+
+.footer {
+
+    margin-top:25px;
+
+    font-size:12px;
+
+    opacity:0.7;
+
+}
+
+
+</style>
+
 </head>
+
 
 <body>
 
-<h1>Vimo Q User Manual</h1>
 
-<a href="101-Vimo Q Handbuch.pdf">
-Download User Manual PDF
+<div class="container">
+
+
+<div class="logo">
+VQ
+</div>
+
+
+<h1>
+Vimo Q
+</h1>
+
+
+<div class="subtitle">
+Wireless Microphone System<br>
+User Manual & Support Center
+</div>
+
+
+
+<div class="info">
+
+<p>
+📘 Product: Vimo Q
+</p>
+
+<p>
+📄 Manual Version: 2026
+</p>
+
+<p>
+🌍 Language: Deutsch
+</p>
+
+</div>
+
+
+
+<a class="download"
+href="101-Vimo-Q-Handbuch-DE.pdf">
+
+⬇ Download User Manual
+
 </a>
 
+
+
+<div class="languages">
+
+<a href="#">
+DE
+</a>
+
+<a href="#">
+EN
+</a>
+
+<a href="#">
+FR
+</a>
+
+<a href="#">
+IT
+</a>
+
+</div>
+
+
+
+<div class="footer">
+
+© 2026 Vimo Q Support Center<br>
+Thank you for choosing our product
+
+</div>
+
+
+</div>
+
+
 </body>
+
 </html>
